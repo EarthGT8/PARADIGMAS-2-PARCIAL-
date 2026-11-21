@@ -4,7 +4,7 @@ public class Main {
         // Ahora: new EstudianteDAOMySQL();   -> guarda en tu MySQL Workbench
         DAO<Estudiante> estudianteDAO = new EstudianteDAOMySQL();
 
-        Estudiante nuevoEstudiante = new Estudiante(2525041, "Ángel Apolonio Sánchez Sánchez"); // Cambia el ID y nombre a los tuyos
+        Estudiante nuevoEstudiante = new Estudiante(2525050, "Gustavo López Tapia"); // Cambia el ID y nombre a los tuyos
         estudianteDAO.guardar(nuevoEstudiante);
 
         for (Estudiante e : estudianteDAO.obtenerTodos()) {
