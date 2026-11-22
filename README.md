@@ -22,24 +22,25 @@ Portafolio de prácticas, proyectos en Java, patrones de diseño y desarrollo ba
 
 | Actividad | Tema | Tecnologías / Conceptos Clave | Código | Reporte |
 | :--- | :--- | :--- | :---: | :---: |
-| **A16** | **Interfaz Gráfica & Spring Boot (48 Lecciones)** | MVC, Thymeleaf, REST API, DI, Excepciones, Interceptores, JPA/Hibernate, MySQL, Frontend Web, Spring Security (BCrypt) | [📁 Abrir](./A16%20Interfaz%20Gr%C3%A1fica) | [📄 PDF](./A16%20Interfaz%20Gr%C3%A1fica/Reporte_A16_SpringBoot.pdf) |
-| **A17** | **Clases Genéricas (`<T>`)** | Genéricos simples y múltiples (`<K, V>`), tipos acotados (`extends Number`), Pila LIFO genérica, objetos personalizados | [📁 Abrir](./A17%20Clases%20Genericas) | [📄 PDF](./A17%20Clases%20Genericas/Reporte_A17_Genericas.pdf) |
-| **A18** | **Colecciones e Iteradores** | `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap`, `Iterator`, `ListIterator` | [📁 Abrir](./A18%20Colecciones%20e%20Iteradores) | [📄 PDF](./A18%20Colecciones%20e%20Iteradores/Reporte_A18_Colecciones.pdf) |
-| **A20** | **Patrón de Diseño DAO** | Interfaz genérica `DAO<T>`, serialización binaria (`.dat`), persistencia MySQL con JDBC (`PreparedStatement`), UML (PlantUML) | [📁 Abrir](./A20%20Ejercicio%20DAO) | [📄 PDF](./A20%20Ejercicio%20DAO/Reporte_A20_DAO.pdf) |
+| **A16** | **Interfaz Gráfica & Spring Boot (48 Lecciones)** | MVC, Thymeleaf, REST API, DI, Excepciones, Interceptores, JPA/Hibernate, MySQL, Frontend Web, Spring Security (BCrypt) | [📁 Abrir](./A16%20Interfaz%20Gr%C3%A1fica) | [📄 Ver PDF](./A16%20Interfaz%20Gr%C3%A1fica/RSPRINGBOOT.pdf) |
+| **A17** | **Clases Genéricas (`<T>`)** | Genéricos simples y múltiples (`<K, V>`), tipos acotados (`extends Number`), Pila LIFO genérica, objetos personalizados | [📁 Abrir](./A17%20Clases%20Genericas) | [📄 Ver PDF](./A17%20Clases%20Genericas/RCLASESGENERICAS.pdf) |
+| **A18** | **Colecciones e Iteradores** | `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap`, `Iterator`, `ListIterator` | [📁 Abrir](./A18%20Colecciones%20e%20Iteradores) | [📄 Ver PDF](./A18%20Colecciones%20e%20Iteradores/RCOLLECTIONS.pdf) |
+| **A20** | **Patrón de Diseño DAO** | Interfaz genérica `DAO<T>`, serialización binaria (`.dat`), persistencia MySQL con JDBC (`PreparedStatement`), UML | [📁 Abrir](./A20%20Ejercicio%20DAO) | [📄 Ver PDF](./A20%20Ejercicio%20DAO/RDAO.pdf) |
 
 ---
 
 ## 🗂️ Estructura del Repositorio
 
 ```text
-📦 PARADIGMAS 2 PARCIAL
+📦 PARADIGMAS-2-PARCIAL-
  ┣ 📂 A16 Interfaz Gráfica
  ┃ ┣ 📂 spring-boot-app1       # Lecciones 01–18: MVC, Thymeleaf, REST, DTO, @RequestParam, @PathVariable, @Value, JAR
  ┃ ┣ 📂 libreria               # Lecciones 20–31: Inyección de Dependencias, Inmutabilidad, Cloneable, Excepciones e Interceptores
- ┃ ┗ 📂 ferreteria             # Lecciones 32–48: JPA/Hibernate + MySQL, Mapper/DTO, CRUD completo, Frontend Web y Spring Security
- ┣ 📂 A17 Clases Genericas     # Almacen, ParGenerico, CalculadoraNumerica, PilaGenerica, ContenedorObjetos
- ┣ 📂 A18 Colecciones e Iteradores # DemoCollections, ArrayList, HashSet, LinkedList, Mapas, Iterator, ListIterator, TreeSet
- ┣ 📂 A20 Ejercicio DAO        # DAO<T>, Estudiante, EstudianteDAOArchivo (.dat), EstudianteDAOMySQL (JDBC), Main y UML
+ ┃ ┣ 📂 ferreteria             # Lecciones 32–48: JPA/Hibernate + MySQL, Mapper/DTO, CRUD completo, Frontend Web y Spring Security
+ ┃ ┗ 📄 RSPRINGBOOT.pdf
+ ┣ 📂 A17 Clases Genericas     # Almacen, ParGenerico, CalculadoraNumerica, PilaGenerica, ContenedorObjetos + RCLASESGENERICAS.pdf
+ ┣ 📂 A18 Colecciones e Iteradores # DemoCollections, ArrayList, HashSet, LinkedList, Mapas, Iterator, ListIterator, TreeSet + RCOLLECTIONS.pdf
+ ┣ 📂 A20 Ejercicio DAO        # DAO<T>, Estudiante, EstudianteDAOArchivo (.dat), EstudianteDAOMySQL (JDBC), Main + RDAO.pdf
  ┣ 📜 .gitignore
  ┗ 📜 README.md
 ```
